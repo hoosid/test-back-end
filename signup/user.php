@@ -9,7 +9,9 @@
     $sql="INSERT INTO `info`(`username`, `email`, `mobil`, `passeword`) 
     VALUES ('$name','$email','$mobile','$password')";
     $res=mysqli_query($con,$sql);
+
    }
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,7 +25,7 @@
 </head>
 
 <body>
-    <form action="contact.php" style="border:1px solid #ccc" method="post">
+    <form action="user.php" style="border:1px solid #ccc" method="post">
         <div class="container">
             <h1>Sign Up</h1>
             <p>Please fill in this form to create an account.</p>
